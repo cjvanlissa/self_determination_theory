@@ -1,14 +1,23 @@
 # FAIR theory: Self-Determination Theory
 
-# Description
+## Description
 
-This is a FAIR theory, see Van Lissa et al., in preparation.
+This is a FAIR theory (Van Lissa et al., 2025) specification of Deci and Ryan's *Self-Determination Theory* (Deci & Ryan, 2012).
+The definition of SDT used for the theory specification exercise was taken from this book chapter,
+but seems to be fully consistent with the description on <https://selfdeterminationtheory.org/the-theory/>.
 
-# Interoperability
+The theory was first specified by Van Lissa, Li, and Weber as part of the "Proposition Based Theory Specification" (PBTS) project by Andreas Glöckner, Susann Fiedler, Jennifer Biehl, & Jasper Siol (in preparation).
+In this "many-theorists project", groups of scholars were each assigned a chapter of the "Handbook of Theories of Social Psychology" [@vanlangeHandbookTheoriesSocial2012],
+and asked to specify it and document the process.
 
-Explain what the theory can be reused for, and how.
+Van Lissa further adapted the theory specification, as documented in [this vignette](https://cjvanlissa.github.io/theorytools/articles/formalizing_sdt.html).
 
-# Contributing
+## Interoperability
+
+`sdt.txt`	This file contains the main theory, specified as a DAG. It is interoperable for causal inference and data simulaiton in R, as explained in [this vignette](https://cjvanlissa.github.io/theorytools/articles/causal-inference.html).
+`definitions.csv`	This file contains definitions of the constructs in `sdt.txt`, inasfar as we could find them. At present, this file is not very interoperable. We urgently invite domain experts to propose more concrete definitions of the constructs (as our attempt to identify the intended definitions likely fell short), or to propose new and better definitions.
+
+## Contributing
 
 If you want to contribute to this project, please get involved. You can do so in three ways:
 
@@ -22,7 +31,7 @@ By participating in this project, you agree to abide by the [Contributor Covenan
 
 ## Related works
 
-Optionally, cite the canonical reference for the theory implemented in this repository here. This is redundant with adding the cross-reference in 'Zenodo', but may be useful nonetheless.
+> Deci, E. L., & Ryan, R. M. (2012). Self-Determination Theory. In P. A. M. V. Lange, A. W.Kruglanski, & E. ToryHiggins (Eds.), Handbook of Theories of Social Psychology: Volume 1 (pp. 416–437). SAGE Publications Ltd. https://doi.org/10.4135/9781446249215
 
 ## Citing this work
 
